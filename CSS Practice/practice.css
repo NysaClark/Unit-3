@@ -1,0 +1,59 @@
+h1{
+    color: darkslateblue;
+    border-bottom: darkslateblue solid 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div{
+    color: gray;
+    font-weight: bold;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    border: 2px solid hotpink;
+}
+
+a{
+    color: orangered;
+}
+
+a[href="Google.com"]{
+    color: red;
+}
+
+a[href="Wikipedia.com"]{
+    color: grey;
+}
+
+a[href="W3schools.com"]{
+    color: limegreen;
+}
+
+a[href="Mdn.com"]{
+    color: lightblue;
+}
+
+a[href="github.com"]{
+    color: green;
+}
+
+li::first-letter{
+    font-size: 2em;
+    font-family: fantasy;
+}
+
+a[href]::after{
+    content: ".com"
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}

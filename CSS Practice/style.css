@@ -1,0 +1,61 @@
+p{
+    color: aquamarine;
+    border: solid 3px orange;
+}
+
+.col-1-2{
+    color:black;
+    width: calc(50% - 6px);
+    float: left;
+
+}
+
+#grey{
+    color: grey;
+}
+
+#bold{
+    font-weight: bold;
+}
+
+span{
+    color: purple;
+    border: orchid dotted 5px;
+}
+
+main{
+    border: black solid 2px;
+}
+
+div{
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% - 20px - 20px);
+    background-color: palegreen;
+    text-decoration: dashed underline palevioletred;
+}
+
+img{
+    transform: rotate(90deg);
+}
+
+@media(max-width: 400px){
+    img{
+        transform: rotate(270deg);
+    }
+    header{
+        width: 400px;
+    }
+}
+
+a{
+    color: blue;
+}
+
+a[href]{
+    color: red;
+}
+
+a[href="west-mec.org"]{
+    color: orange;
+}
